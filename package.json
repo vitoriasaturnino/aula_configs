@@ -1,0 +1,34 @@
+{
+  "name": "aula_configs",
+  "version": "1.0.0",
+  "description": "aula configurações",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev -r dotenv/config ./src/server.ts",
+    "build": "tsc",
+    "start": "node ./dist/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitoriasaturnino/aula_configs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vitoriasaturnino/aula_configs/issues"
+  },
+  "homepage": "https://github.com/vitoriasaturnino/aula_configs#readme",
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "babel-eslint": "^10.1.0",
+    "dotenv": "^16.0.1",
+    "eslint": "^8.16.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "express": "^4.18.1",
+    "prettier": "^2.6.2"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0"
+  }
+}
